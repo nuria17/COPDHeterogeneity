@@ -4,7 +4,7 @@ This repostory contains the scripts used to perform the analysis described in th
 
 # Data
 
-Documents showing how the data is organised and the different files used in the study are found in the RawData directory. 
+Documents showing how the data is organised and the different files used in the study are found in the Data/RawData directory. 
 
 # Scripts to be run
 
