@@ -15,4 +15,7 @@ This is the first script that needs to be run. It performs a the differential ex
 DIABLO.r builds a Data Integration Analysis for Biomarker discovery using Latent variable approaches for ‘Omics studies (DIABLO) model for all the possible omics combinations. It also returns the plots showed in the main paper and Supplementary Material 1 (individual plot, arrow plot, clustered image map).
 
 3. SNF\
-SNF.r builds a Similarity Network Fusion (SNF) model, performs the enrichment analysis using GSEA, ebGSEA and Fisher's exact test for mRNA, methylome and miRNA, respectively. It also returns the clinical tables, where the available clinical variables were evaluated to see possible differences between the SNF groups. 
+SNF.r builds a Similarity Network Fusion (SNF) model, performs the enrichment analysis using GSEA, ebGSEA and Fisher's exact test for mRNA, methylome and miRNA, respectively. It also returns the clinical tables, where the available clinical variables were evaluated to see possible differences between the SNF groups. NcolFormat.py transforms a individual x individual correlation/affinity matrix to a an unweighted graph in the ncol format through a cutoff given by the user to decide whether two nodes should be connected or not. Once it is in the suitable format, the file can be given to Cytoscape to represent the networks.
+
+4. MOLTI\
+
